@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 
 gem 'rails', '4.0.13'
-gem 'sqlite3', '>= 1.3.13'
+gem 'pg', '~> 0.18.4'
 gem 'sass-rails', '>= 4.0.2'
 gem 'bootstrap-sass', '>= 3.3.1'
 gem 'uglifier', '>= 1.3.0'
@@ -17,7 +17,11 @@ group :development, :test do
   gem 'pry'
 end
 
-group :devlopment do
+group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+end
+
+group :production do
+  gem 'rails_12factor'
 end
