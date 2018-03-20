@@ -129,15 +129,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3.1)
+  bootstrap-sass (>= 3.3.1)
   carrierwave
-  coffee-rails (~> 4.0.0)
-  jbuilder (~> 1.2)
+  coffee-rails (>= 4.0.0)
+  jbuilder (>= 1.2)
   jquery-rails
   mini_magick
   pry
   rails (= 4.0.13)
-  sass-rails (~> 4.0.2)
+  sass-rails (>= 4.0.2)
   spring
   sqlite3
   turbolinks
